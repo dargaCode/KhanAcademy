@@ -1,0 +1,279 @@
+
+/*GENERAL*/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  color: inherit;
+}
+
+body {
+  font-family: "Arimo", "Helvetica", sans-serif;
+  line-height: 1.5;
+  color: #2d4c53;
+  background: #394446;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.content-section {
+  background: #024A58;
+  /*No margin collapse w/children*/
+  overflow: hidden;
+}
+
+.content-section .container {
+  background: #eef5f7;
+  padding: 10px 35px 0;
+  /*No margin collapse w/children*/
+  overflow: hidden;
+}
+
+.content-section footer {
+  text-align: center;
+  padding-top: 5px;
+}
+
+a {
+  color: #e77f1f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*HEADINGS*/
+
+/*used by headings that are needed for HTML5 document outline but not for visually browsing the site*/
+.invisible-but-outline-readable {
+  /*call attention if hiding isn't working*/
+  color: red;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Arimo", "Helvetica", sans-serif;
+}
+
+h2 {
+  color: #1b2e32;
+  margin: 0;
+  font-size: 40px;
+}
+
+h3 {
+  color: #1b2e32;
+  margin-top: 1.5em;
+  margin-bottom: 0;
+}
+
+/*NAVIGATION*/
+
+nav {
+  font-family: "Roboto", sans-serif;
+  color: #c7d0d1;
+  background: #455154;
+  width: 100%;
+  position: fixed;
+  /*not affected by the about overlay*/
+  z-index: 1;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+.nav-logo {
+  float: left;
+  padding: 15px 0;
+  color: #F29A47;
+  font-weight: 700;
+}
+
+.nav-logo:hover {
+  color: #d1dee0;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+  /*Remove spaces between inline-block children*/
+  font-size: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  /*Override 0-size text in ul*/
+  font-size: 1rem;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 15px 11.2px;
+}
+
+nav ul li a:hover {
+  color: #F29A47;
+  background: #1b2e32;
+
+}
+
+/*PROJECTS*/
+
+.projects {
+  background: #1C7889;
+}
+
+.projects .container {
+  max-width: 960px;
+  padding: 110px 0 160px;
+  background: none;
+  /*Remove spaces between inline-block children*/
+  font-size: 0;
+}
+
+.projects h2 {
+  text-align: center;
+  margin: 0 0 15px;
+  color: #eef5f7;
+}
+
+.projects .project-list {
+  text-align: center;
+}
+
+.projects .project-card {
+  display: inline-block;
+  max-width: 480px;
+  padding: 0 40px 20px;
+  /*Override 0-size text in container*/
+  text-align: center;
+  font-size: 1rem;
+  background: #eef5f7;
+  border: 2px solid #1C7889;
+  /*No margin collapse with children*/
+  overflow: hidden;
+}
+
+.project-card .header-link:hover {
+  text-decoration: none;
+}
+
+.project-card h3 {
+  font-size: 1.5em;
+  color: #1a707f;
+}
+
+.project-card .type-span {
+  font-size: 0.95em;
+}
+
+.project-card time {
+  color: #8f8276;
+  font-size: 0.95em;
+}
+
+.project-card img {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.project-card .tags-span {
+  color: #1a707f;
+  font-weight: 700;
+  font-size: 0.95em;
+}
+
+.project-card p {
+  font-size: 0.95em;
+  margin: 10px 0 -10px;
+}
+
+a.project-link {
+  display: inline-block;
+  /*Hide link text*/
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+}
+
+a.project-link i {
+  vertical-align: top;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+a.project-link:hover i {
+  font-size: 50px;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 800px) {
+
+  /*GENERAL*/
+
+  /*PROJECTS*/
+
+  .projects .container {
+    padding-bottom: 110px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  /*GENERAL*/
+
+  /*PROJECTS*/
+
+  .projects .container {
+    padding-bottom: 100px;
+  }
+
+}
+
+@media (max-width: 486px) {
+
+  /*GENERAL*/
+
+  /*PROJECTS*/
+
+  .projects .container {
+    padding-top: 112px;
+  }
+
+  .projects .project-card h3 {
+    margin-bottom: 6px;
+    line-height: 1.4;
+  }
+
+}
+
+@media (max-width: 325px) {
+
+  /*GENERAL*/
+
+  /*PROJECTS*/
+
+  .projects .container {
+    padding-top: 80px;
+  }
+
+}
