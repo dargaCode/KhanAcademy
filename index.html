@@ -4,23 +4,51 @@
   <title>Khan Academy Projects - dargaCode</title>
 
   <!-- STYLESHEETS -->
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
   <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 </head>
 <body>
 
-<div class="post-list">
+<section id="projects" class="content-section projects">
+  <div class="container">
+    <h2>Projects</h2>
 
-</div>
+    <div class="project-list">
+      <!-- JavaScript fills this div with projects-->
+
+    </div>
+
+  </div>
+</section>
 
 <!-- HANDLEBARS TEMPLATES -->
 
-<script id="entry-template" type="text/x-handlebars-template">
-  <div class="entry">
-    <h1>{{title}}</h1>
-    <p class="body">
-      {{body}}
-    </p>
-  </div>
+<script id="project-template" type="text/x-handlebars-template">
+  <article class="project-card">
+    <a class="header-link" href="{{livePageUrl}}">
+      <h3>{{name}}</h3>
+    </a>
+
+    <time datetime="2016-10-16"> FIX ME Oct 2016</time>
+
+    <a href="{{livePageUrl}}">
+      <img alt="Project screenshot for {{name}}" src="{{imageUrl}}">
+    </a>
+
+    <p>{{description}}</p>
+
+    <a class="project-link" href="{{gitHubUrl}}">
+      GitHub Repository
+
+      <i class="fa fa-github"></i>
+    </a>
+
+    <a href="{{livePageUrl}}" class="project-link">
+      Live Webpage
+
+      <i class="fa fa-globe"></i>
+    </a>
+  </article>
 </script>
 
 <!-- SCRIPTS -->

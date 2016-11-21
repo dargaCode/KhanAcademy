@@ -7,9 +7,9 @@ const PROJECTS = CONSTANTS.PROJECTS;
 
 // CONSTANTS
 
-const postTemplate = document.querySelector('#entry-template').innerHTML;
+const postTemplate = document.querySelector('#project-template').innerHTML;
 
-const templateDestination = document.querySelector('.post-list');
+const templateDestination = document.querySelector('.project-list');
 
 const template = Handlebars.compile(postTemplate);
 
@@ -20,11 +20,7 @@ const template = Handlebars.compile(postTemplate);
 // MAIN
 
 for (let project of PROJECTS) {
-  var context = {
-    title: project.name,
-    body: project.description,
-  };
-  var compiledHTML = template(context);
+  var compiledHTML = template(project);
 
   templateDestination.innerHTML += compiledHTML;
 }
