@@ -33,11 +33,6 @@ body {
   overflow: hidden;
 }
 
-.content-section footer {
-  text-align: center;
-  padding-top: 5px;
-}
-
 a {
   color: #e77f1f;
   text-decoration: none;
