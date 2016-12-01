@@ -4,7 +4,7 @@ const CONSTANTS = (function() {
   const PROJECTS = [
    {
       'name': 'Drag and Drop Book Shelf',
-      'description': 'Originally written on Khan Academy, this old project is a personal favorite. I expanded the simple assignment ("Create an array of book objects") to include a drag and drop interface using a hierarchy of nine classes.',
+      'description': 'Project Description Here',
       'date': new Date('Jul 31 2015'),
       'imageUrl': './img/project-thumbnails/bookshelf.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanBookShelf',
