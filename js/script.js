@@ -7,7 +7,20 @@ const PROJECTS = CONSTANTS.PROJECTS;
 
 // CONSTANTS
 
-const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec',];
+const MONTHS = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December',
+];
 
 const postTemplate = document.querySelector('#project-template').innerHTML;
 
@@ -20,9 +33,10 @@ const template = Handlebars.compile(postTemplate);
 function getDateString(date) {
   const monthIndex = date.getMonth();
   const year = date.getFullYear();
-  const monthAbbreviation = MONTHS[monthIndex];
+  const monthName = MONTHS[monthIndex];
+  const dayOfMonth = date.getDate();
 
-  return `${monthAbbreviation} ${year}`;
+  return `${monthName} ${dayOfMonth}, ${year}`;
 }
 
 // date in the special format required by the 'datetime' attribute
