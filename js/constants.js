@@ -58,7 +58,7 @@ const CONSTANTS = (function() {
     },
    {
       'name': 'Meteor Shower',
-      'description': 'Added the moon, twinkling stars, and randomized meteor distance/speed.',
+      'description': 'Added animated moon, twinkling stars, and randomized meteor distance/speed.',
       'date': new Date('May 22 2015'),
       'imageUrl': './img/project-thumbnails/meteor-shower.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanMeteorShower',
