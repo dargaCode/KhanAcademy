@@ -137,9 +137,10 @@ h3 {
   font-size: 0.95em;
 }
 
-.project-card p {
+.project-card .description {
   font-size: 0.95em;
   margin: 10px 0 -10px;
+  min-height: 4.5em;
 }
 
 .project-card .project-links {

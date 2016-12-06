@@ -4,7 +4,7 @@ const CONSTANTS = (function() {
   const PROJECTS = [
    {
       'name': 'Book Shelf',
-      'description': 'Project Description Here',
+      'description': 'Expanded the project to include a drag and drop interface, using a hierarchy of 9 classes.',
       'date': new Date('Jul 31 2015'),
       'imageUrl': './img/project-thumbnails/bookshelf.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanBookShelf',
@@ -13,7 +13,7 @@ const CONSTANTS = (function() {
     },
    {
       'name': 'Thunder Storm',
-      'description': 'Project Description Here',
+      'description': 'Expanded the project to include changing weather conditions, splashes, and perspective',
       'date': new Date('Jul 31 2015'),
       'imageUrl': './img/project-thumbnails/thunder-storm.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanThunderStorm',
@@ -22,7 +22,7 @@ const CONSTANTS = (function() {
     },
    {
       'name': 'Mansion Builder',
-      'description': 'Project Description Here',
+      'description': 'A small house expands into a mansion. As the dimensions increase, loops fill the features.',
       'date': new Date('Jul 31 2015'),
       'imageUrl': './img/project-thumbnails/mansion-builder.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanMansionBuilder',
@@ -31,7 +31,7 @@ const CONSTANTS = (function() {
     },
    {
       'name': 'Magic 8-Ball',
-      'description': 'Project Description Here',
+      'description': 'Added animations for the ball shaking and the answer appearing.',
       'date': new Date('Jul 31 2015'),
       'imageUrl': './img/project-thumbnails/magic-8-ball.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanMagic8Ball',
@@ -40,7 +40,7 @@ const CONSTANTS = (function() {
     },
    {
       'name': 'Randomized Fish',
-      'description': 'Project Description Here',
+      'description': 'Randomly generates new fish on each refresh.',
       'date': new Date('Jul 31 2015'),
       'imageUrl': './img/project-thumbnails/fish-tank.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanFishTank',
@@ -49,7 +49,7 @@ const CONSTANTS = (function() {
     },
    {
       'name': 'Infinite Cat Attack',
-      'description': 'Project Description Here',
+      'description': 'Randomly colored cats infinitely run from the background and pounce through the screen.',
       'date': new Date('Jul 31 2015'),
       'imageUrl': './img/project-thumbnails/cat-attack.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanCatAttack',
@@ -58,7 +58,7 @@ const CONSTANTS = (function() {
     },
    {
       'name': 'Meteor Shower',
-      'description': 'Project Description Here',
+      'description': 'Added the moon, twinkling stars, and randomized meteor distance/speed.',
       'date': new Date('Jul 31 2015'),
       'imageUrl': './img/project-thumbnails/meteor-shower.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanMeteorShower',
@@ -67,7 +67,7 @@ const CONSTANTS = (function() {
     },
     {
       'name': 'Mouse Interaction',
-      'description': 'Project Description Here',
+      'description': 'Added more elaborate cursor movement/sizing/colors, as well as a pulsing cursor outline.',
       'date': new Date('Jul 31 2015'),
       'imageUrl': './img/project-thumbnails/mouse-interaction.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanMouseInteraction',
@@ -76,7 +76,7 @@ const CONSTANTS = (function() {
   },
    {
       'name': 'Chicken Drawing',
-      'description': 'Project Description Here',
+      'description': 'Static drawing made for Hour of Code. Helped me finally dive into the programming class.',
       'date': new Date('Jul 31 2015'),
       'imageUrl': './img/project-thumbnails/chicken-drawing.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanChickenDrawing',
