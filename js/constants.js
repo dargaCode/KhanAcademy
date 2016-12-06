@@ -14,7 +14,7 @@ const CONSTANTS = (function() {
    {
       'name': 'Thunder Storm',
       'description': 'Expanded the project to include changing weather conditions, splashes, and perspective',
-      'date': new Date('Jul 31 2015'),
+      'date': new Date('Jun 27 2015'),
       'imageUrl': './img/project-thumbnails/thunder-storm.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanThunderStorm',
       'livePageUrl': 'http://dargacode.github.io/KhanThunderStorm',
@@ -23,7 +23,7 @@ const CONSTANTS = (function() {
    {
       'name': 'Mansion Builder',
       'description': 'A small house expands into a mansion. As the dimensions increase, loops fill the features.',
-      'date': new Date('Jul 31 2015'),
+      'date': new Date('Jun 16 2015'),
       'imageUrl': './img/project-thumbnails/mansion-builder.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanMansionBuilder',
       'livePageUrl': 'http://dargacode.github.io/KhanMansionBuilder',
@@ -32,7 +32,7 @@ const CONSTANTS = (function() {
    {
       'name': 'Magic 8-Ball',
       'description': 'Added animations for the ball shaking and the answer appearing.',
-      'date': new Date('Jul 31 2015'),
+      'date': new Date('Jun 6 2015'),
       'imageUrl': './img/project-thumbnails/magic-8-ball.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanMagic8Ball',
       'livePageUrl': 'http://dargacode.github.io/KhanMagic8Ball',
@@ -41,7 +41,7 @@ const CONSTANTS = (function() {
    {
       'name': 'Randomized Fish',
       'description': 'Randomly generates new fish on each refresh.',
-      'date': new Date('Jul 31 2015'),
+      'date': new Date('Jun 1 2015'),
       'imageUrl': './img/project-thumbnails/fish-tank.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanFishTank',
       'livePageUrl': 'http://dargacode.github.io/KhanFishTank',
@@ -50,7 +50,7 @@ const CONSTANTS = (function() {
    {
       'name': 'Infinite Cat Attack',
       'description': 'Randomly colored cats infinitely run from the background and pounce through the screen.',
-      'date': new Date('Jul 31 2015'),
+      'date': new Date('May 29 2015'),
       'imageUrl': './img/project-thumbnails/cat-attack.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanCatAttack',
       'livePageUrl': 'http://dargacode.github.io/KhanCatAttack',
@@ -59,7 +59,7 @@ const CONSTANTS = (function() {
    {
       'name': 'Meteor Shower',
       'description': 'Added the moon, twinkling stars, and randomized meteor distance/speed.',
-      'date': new Date('Jul 31 2015'),
+      'date': new Date('May 22 2015'),
       'imageUrl': './img/project-thumbnails/meteor-shower.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanMeteorShower',
       'livePageUrl': 'http://dargacode.github.io/KhanMeteorShower',
@@ -68,7 +68,7 @@ const CONSTANTS = (function() {
     {
       'name': 'Mouse Interaction',
       'description': 'Added more elaborate cursor movement/sizing/colors, as well as a pulsing cursor outline.',
-      'date': new Date('Jul 31 2015'),
+      'date': new Date('May 18 2015'),
       'imageUrl': './img/project-thumbnails/mouse-interaction.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanMouseInteraction',
       'livePageUrl': 'http://dargacode.github.io/KhanMouseInteraction',
@@ -77,7 +77,7 @@ const CONSTANTS = (function() {
    {
       'name': 'Chicken Drawing',
       'description': 'Static drawing made for Hour of Code. Helped me finally dive into the programming class.',
-      'date': new Date('Jul 31 2015'),
+      'date': new Date('May 11 2015'),
       'imageUrl': './img/project-thumbnails/chicken-drawing.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanChickenDrawing',
       'livePageUrl': 'http://dargacode.github.io/KhanChickenDrawing',
