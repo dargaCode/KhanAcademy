@@ -3,7 +3,7 @@ const CONSTANTS = (function() {
 
   const PROJECTS = [
    {
-      'name': 'Drag and Drop Book Shelf',
+      'name': 'Book Shelf',
       'description': 'Project Description Here',
       'date': new Date('Jul 31 2015'),
       'imageUrl': './img/project-thumbnails/bookshelf.png',
@@ -12,7 +12,7 @@ const CONSTANTS = (function() {
       'khanUrl': 'https://www.khanacademy.org/computer-programming/book-shelf/6312048259629056',
     },
    {
-      'name': 'Interactive Thunder Storm',
+      'name': 'Thunder Storm',
       'description': 'Project Description Here',
       'date': new Date('Jul 31 2015'),
       'imageUrl': './img/project-thumbnails/thunder-storm.png',
@@ -21,7 +21,7 @@ const CONSTANTS = (function() {
       'khanUrl': 'https://www.khanacademy.org/computer-programming/thunder-storm/6692749556449280',
     },
    {
-      'name': 'Mansion Builder Animation',
+      'name': 'Mansion Builder',
       'description': 'Project Description Here',
       'date': new Date('Jul 31 2015'),
       'imageUrl': './img/project-thumbnails/mansion-builder.png',
@@ -39,7 +39,7 @@ const CONSTANTS = (function() {
       'khanUrl': 'https://www.khanacademy.org/computer-programming/magic-8-ball/5857458956402688',
     },
    {
-      'name': 'Randomized Fish Tank',
+      'name': 'Randomized Fish',
       'description': 'Project Description Here',
       'date': new Date('Jul 31 2015'),
       'imageUrl': './img/project-thumbnails/fish-tank.png',
@@ -57,7 +57,7 @@ const CONSTANTS = (function() {
       'khanUrl': 'https://www.khanacademy.org/computer-programming/infinite-cattack/4829025166032896',
     },
    {
-      'name': 'Meteor Shower Animation',
+      'name': 'Meteor Shower',
       'description': 'Project Description Here',
       'date': new Date('Jul 31 2015'),
       'imageUrl': './img/project-thumbnails/meteor-shower.png',
