@@ -156,6 +156,10 @@ a.project-link {
   height: 50px;
 }
 
+a.project-link:hover {
+  text-decoration: none;
+}
+
 a.project-link i {
   vertical-align: top;
   font-size: 36px;
