@@ -21,13 +21,12 @@ body {
 }
 
 .content-section {
-  background: #024A58;
+  background: #1C7889;
   /*No margin collapse w/children*/
   overflow: hidden;
 }
 
 .content-section .container {
-  background: #eef5f7;
   padding: 10px 35px 0;
   /*No margin collapse w/children*/
   overflow: hidden;
@@ -61,24 +60,85 @@ a:focus {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Arimo", "Helvetica", sans-serif;
+  margin: 0;
+color: #1b2e32;
+}
+
+h1 {
+  font-size: 43px;
 }
 
 h2 {
-  color: #1b2e32;
-  margin: 0;
   font-size: 40px;
 }
 
 h3 {
-  color: #1b2e32;
+  font-size: 24px;
   margin-top: 1.5em;
   margin-bottom: 0;
+}
+
+/*HEADER*/
+
+header {
+  text-align: center;
+  padding: 30px 0 0;
+}
+
+header h1 {
+
+  /*remove spaces between inline-children*/
+  font-size: 0;
+}
+
+header h1 span {
+  font-size: 43px;
+}
+
+header h1 .darga {
+  color: #e77f1f;
+}
+
+header h1 .code {
+  color: #eef5f7;
+}
+
+header h1 .khan {
+  margin-left: 14px;
+}
+
+/*PROFILE*/
+
+.profile {
+  text-align: center;
+  padding: 20px 0 66px;
+}
+
+.profile .container {
+  max-width: 600px;
+  padding: 20px 0 30px;
+  background: #eef5f7;
+}
+
+table {
+  text-align: left;
+  margin: 0 auto;
+  /*padding: 20px;*/
+  line-height: 1.8;
+}
+
+/*first column*/
+td:nth-child(1) {
+  text-align: right;
+  padding-right: 5px;
+  color: #1a707f;
+  font-size: 0.95em;
 }
 
 /*PROJECTS*/
 
 .projects {
-  background: #1C7889;
+  background: #024A58;
 }
 
 .projects .container {
