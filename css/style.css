@@ -238,27 +238,32 @@ a.project-link:hover i {
 
 /*MEDIA QUERIES*/
 
-@media (max-width: 800px) {
+@media (max-width: 598px) {
 
   /*GENERAL*/
 
-  /*PROJECTS*/
+  /*HEADER*/
 
-  .projects .container {
-    padding-bottom: 110px;
+  header {
+    padding-top: 24px;
   }
 
-}
+  header h1 {
+    line-height: 1.3;
+  }
 
-@media (max-width: 600px) {
+  header h1 .khan {
+    margin: 0;
+    display: block;
+  }
 
-  /*GENERAL*/
+  /*PROFILE*/
+
+  .profile .container {
+    max-width: 300px;
+  }
 
   /*PROJECTS*/
-
-  .projects .container {
-    padding-bottom: 100px;
-  }
 
 }
 
@@ -267,10 +272,6 @@ a.project-link:hover i {
   /*GENERAL*/
 
   /*PROJECTS*/
-
-  .projects .container {
-    padding-top: 112px;
-  }
 
   .projects .project-card h3 {
     margin-bottom: 6px;
@@ -284,9 +285,5 @@ a.project-link:hover i {
   /*GENERAL*/
 
   /*PROJECTS*/
-
-  .projects .container {
-    padding-top: 80px;
-  }
 
 }
