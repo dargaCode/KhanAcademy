@@ -123,7 +123,7 @@ header h1 .khan {
 table {
   text-align: left;
   margin: 0 auto;
-  /*padding: 20px;*/
+  font-size: 1.1em;
   line-height: 1.8;
 }
 
@@ -131,8 +131,9 @@ table {
 td:nth-child(1) {
   text-align: right;
   padding-right: 5px;
-  color: #1a707f;
   font-size: 0.95em;
+  vertical-align: bottom;
+  color: #1a707f;
 }
 
 /*PROJECTS*/
