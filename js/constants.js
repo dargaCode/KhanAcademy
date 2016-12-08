@@ -13,7 +13,7 @@ const CONSTANTS = (function() {
     },
    {
       'name': 'Thunder Storm',
-      'description': 'Expanded the project to include changing weather conditions, splashes, and perspective',
+      'description': 'Expanded the project to include changing weather conditions, splashes, and perspective.',
       'date': new Date('Jun 27 2015'),
       'imageUrl': './img/project-thumbnails/thunder-storm.png',
       'gitHubUrl': 'https://github.com/dargaCode/KhanThunderStorm',
