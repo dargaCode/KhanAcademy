@@ -86,9 +86,12 @@ header {
 }
 
 header h1 {
-
   /*remove spaces between inline-children*/
   font-size: 0;
+}
+
+header h1 a:hover {
+  text-decoration: none;
 }
 
 header h1 span {
