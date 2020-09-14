@@ -110,40 +110,7 @@ header h1 .khan {
   margin-left: 14px;
 }
 
-/*PROFILE*/
-
-.profile {
-  text-align: center;
-  padding: 20px 0 66px;
-}
-
-.profile .container {
-  max-width: 600px;
-  padding: 20px 0 30px;
-  background: #eef5f7;
-}
-
-table {
-  text-align: left;
-  margin: 0 auto;
-  font-size: 1.1em;
-  line-height: 1.8;
-}
-
-/*first column*/
-td:nth-child(1) {
-  text-align: right;
-  padding-right: 5px;
-  font-size: 0.92em;
-  vertical-align: bottom;
-  font-weight: bold;
-}
-
 /*PROJECTS*/
-
-.projects {
-  background: #024A58;
-}
 
 .projects .container {
   padding: 50px 0 80px;
@@ -258,12 +225,6 @@ a.project-link:hover i {
   header h1 .khan {
     margin: 0;
     display: block;
-  }
-
-  /*PROFILE*/
-
-  .profile .container {
-    max-width: 298px;
   }
 
   /*PROJECTS*/
