@@ -151,10 +151,6 @@ header h1 .khan {
   color: #1a707f;
 }
 
-.project-card .type-span {
-  font-size: 0.95em;
-}
-
 .project-card time {
   color: #8f8276;
   font-size: 0.95em;
@@ -164,12 +160,6 @@ header h1 .khan {
   display: block;
   width: 100%;
   margin: 20px 0;
-}
-
-.project-card .tags-span {
-  color: #1a707f;
-  font-weight: 700;
-  font-size: 0.95em;
 }
 
 .project-card .description {
